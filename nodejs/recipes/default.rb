@@ -12,7 +12,7 @@ end
 
 #Install packages
 package 'nodejs'
-#package 'npm'
+package 'npm'
 
 #Loop through default attributes and install the node_modules
 node['node_modules'].each do |packages|
